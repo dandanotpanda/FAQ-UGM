@@ -1,143 +1,334 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Orbit Hands-On Project</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <main class="faq-container">
-        <h1 style="text-align: center; padding: 2rem;">Pertanyaan FAQ</h1>
-        <section class="faq-grid">
-            <!-- FAQ 1 -->
-            <article class="faq-card">
-                <button class="faq-question" aria-expanded="false">
-                    <div class="question-block">
-                        <h4 class="faq-number">FAQ 1</h4>
-                        <p class="question-text">Apa itu Universitas Gadjah Mada (UGM)?</p>
-                    </div>
-                    <span class="toggle-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Universitas Gadjah Mada (UGM) adalah salah satu perguruan tinggi negeri di Indonesia yang didirikan pada 19 Desember 1949. UGM dikenal sebagai institusi pendidikan tinggi yang berfokus pada pendidikan, penelitian, dan pengabdian kepada masyarakat.</p>
-                </div>
-            </article>
+      <h1 style="text-align: center; padding: 2rem">Pertanyaan FAQ</h1>
+      <section class="faq-grid">
+        <!-- FAQ 1 -->
+        <article class="faq-card">
+          <button class="faq-question" aria-expanded="false">
+            <div class="question-block">
+              <h4 class="faq-number">FAQ 1</h4>
+              <p class="question-text">
+                Apa itu Universitas Gadjah Mada (UGM)?
+              </p>
+            </div>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Universitas Gadjah Mada (UGM) adalah salah satu perguruan tinggi
+              negeri di Indonesia yang didirikan pada 19 Desember 1949. UGM
+              dikenal sebagai institusi pendidikan tinggi yang berfokus pada
+              pendidikan, penelitian, dan pengabdian kepada masyarakat.
+            </p>
+          </div>
+        </article>
 
-            <!-- FAQ 2 -->
-            <article class="faq-card">
-                <button class="faq-question" aria-expanded="false">
-                    <div class="question-block">
-                        <h4 class="faq-number">FAQ 2</h4>
-                        <p class="question-text">Di mana lokasi kampus UGM?</p>
-                    </div>
-                    <span class="toggle-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Kampus utama UGM terletak di Bulaksumur, Kabupaten Sleman, Daerah Istimewa Yogyakarta. Lokasinya cukup strategis dan dekat dengan berbagai fasilitas umum, tempat makan, serta pusat kegiatan mahasiswa.</p>
-                </div>
-            </article>
+        <!-- FAQ 2 -->
+        <article class="faq-card">
+          <button class="faq-question" aria-expanded="false">
+            <div class="question-block">
+              <h4 class="faq-number">FAQ 2</h4>
+              <p class="question-text">Di mana lokasi kampus UGM?</p>
+            </div>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Kampus utama UGM terletak di Bulaksumur, Kabupaten Sleman, Daerah
+              Istimewa Yogyakarta. Lokasinya cukup strategis dan dekat dengan
+              berbagai fasilitas umum, tempat makan, serta pusat kegiatan
+              mahasiswa.
+            </p>
+          </div>
+        </article>
 
-            <!-- FAQ 3 -->
-            <article class="faq-card active">
-                <button class="faq-question" aria-expanded="true">
-                    <div class="question-block">
-                        <h4 class="faq-number">FAQ 3</h4>
-                        <p class="question-text">Apa saja jalur masuk UGM?</p>
-                    </div>
-                    <span class="toggle-icon">-</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Penerimaan mahasiswa baru UGM dapat melalui jalur nasional seperti SNBP dan SNBT, serta jalur seleksi mandiri sesuai ketentuan yang berlaku. Persyaratan, jadwal, dan daya tampung dapat berbeda setiap tahun, sehingga calon mahasiswa perlu memeriksa informasi resmi UGM.</p>
-                </div>
-            </article>
+        <!-- FAQ 3 -->
+        <article class="faq-card active">
+          <button class="faq-question" aria-expanded="true">
+            <div class="question-block">
+              <h4 class="faq-number">FAQ 3</h4>
+              <p class="question-text">Apa saja jalur masuk UGM?</p>
+            </div>
+            <span class="toggle-icon">-</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Penerimaan mahasiswa baru UGM dapat melalui jalur nasional seperti
+              SNBP dan SNBT, serta jalur seleksi mandiri sesuai ketentuan yang
+              berlaku. Persyaratan, jadwal, dan daya tampung dapat berbeda
+              setiap tahun, sehingga calon mahasiswa perlu memeriksa informasi
+              resmi UGM.
+            </p>
+          </div>
+        </article>
 
-            <!-- FAQ 4 -->
-            <article class="faq-card">
-                <button class="faq-question" aria-expanded="false">
-                    <div class="question-block">
-                        <h4 class="faq-number">FAQ 4</h4>
-                        <p class="question-text">Apa saja fakultas yang ada di UGM?</p>
-                    </div>
-                    <span class="toggle-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>UGM memiliki beragam fakultas dan sekolah yang mencakup bidang ilmu kesehatan, teknik, sosial dan politik, ekonomi dan bisnis, hukum, pertanian, kehutanan, peternakan, serta ilmu budaya dan sains. Pilihan program studi dapat dilihat melalui situs resmi UGM.</p>
-                </div>
-            </article>
+        <!-- FAQ 4 -->
+        <article class="faq-card">
+          <button class="faq-question" aria-expanded="false">
+            <div class="question-block">
+              <h4 class="faq-number">FAQ 4</h4>
+              <p class="question-text">Apa saja fakultas yang ada di UGM?</p>
+            </div>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              UGM memiliki beragam fakultas dan sekolah yang mencakup bidang
+              ilmu kesehatan, teknik, sosial dan politik, ekonomi dan bisnis,
+              hukum, pertanian, kehutanan, peternakan, serta ilmu budaya dan
+              sains. Pilihan program studi dapat dilihat melalui situs resmi
+              UGM.
+            </p>
+          </div>
+        </article>
 
-            <!-- FAQ 5 -->
-            <article class="faq-card">
-                <button class="faq-question" aria-expanded="false">
-                    <div class="question-block">
-                        <h4 class="faq-number">FAQ 5</h4>
-                        <p class="question-text">Apakah UGM menyediakan beasiswa?</p>
-                    </div>
-                    <span class="toggle-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Ya, mahasiswa UGM memiliki kesempatan memperoleh berbagai beasiswa dari pemerintah, universitas, maupun mitra eksternal. Jenis beasiswa, persyaratan, dan jadwal pendaftaran bergantung pada program yang tersedia.</p>
-                </div>
-            </article>
+        <!-- FAQ 5 -->
+        <article class="faq-card">
+          <button class="faq-question" aria-expanded="false">
+            <div class="question-block">
+              <h4 class="faq-number">FAQ 5</h4>
+              <p class="question-text">Apakah UGM menyediakan beasiswa?</p>
+            </div>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Ya, mahasiswa UGM memiliki kesempatan memperoleh berbagai beasiswa
+              dari pemerintah, universitas, maupun mitra eksternal. Jenis
+              beasiswa, persyaratan, dan jadwal pendaftaran bergantung pada
+              program yang tersedia.
+            </p>
+          </div>
+        </article>
 
-            <!-- FAQ 6 -->
-            <article class="faq-card">
-                <button class="faq-question" aria-expanded="false">
-                    <div class="question-block">
-                        <h4 class="faq-number">FAQ 6</h4>
-                        <p class="question-text">Bagaimana fasilitas mahasiswa di UGM?</p>
-                    </div>
-                    <span class="toggle-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>UGM menyediakan berbagai fasilitas penunjang pembelajaran dan kegiatan mahasiswa, seperti perpustakaan, fasilitas olahraga, layanan kesehatan, ruang kegiatan organisasi, serta sarana akademik di lingkungan kampus.</p>
-                </div>
-            </article>
+        <!-- FAQ 6 -->
+        <article class="faq-card">
+          <button class="faq-question" aria-expanded="false">
+            <div class="question-block">
+              <h4 class="faq-number">FAQ 6</h4>
+              <p class="question-text">Bagaimana fasilitas mahasiswa di UGM?</p>
+            </div>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              UGM menyediakan berbagai fasilitas penunjang pembelajaran dan
+              kegiatan mahasiswa, seperti perpustakaan, fasilitas olahraga,
+              layanan kesehatan, ruang kegiatan organisasi, serta sarana
+              akademik di lingkungan kampus.
+            </p>
+          </div>
+        </article>
 
-            <!-- FAQ 7 -->
-            <article class="faq-card">
-                <button class="faq-question" aria-expanded="false">
-                    <div class="question-block">
-                        <h4 class="faq-number">FAQ 7</h4>
-                        <p class="question-text">Apakah UGM menerima mahasiswa dari luar Yogyakarta?</p>
-                    </div>
-                    <span class="toggle-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Tentu. UGM menerima mahasiswa dari berbagai daerah di Indonesia dan mahasiswa internasional melalui jalur penerimaan yang sesuai. Mahasiswa dari luar Yogyakarta juga dapat mencari tempat tinggal seperti kos atau asrama sesuai ketersediaan dan ketentuan yang berlaku.</p>
-                </div>
-            </article>
+        <!-- FAQ 7 -->
+        <article class="faq-card">
+          <button class="faq-question" aria-expanded="false">
+            <div class="question-block">
+              <h4 class="faq-number">FAQ 7</h4>
+              <p class="question-text">
+                Apakah UGM menerima mahasiswa dari luar Yogyakarta?
+              </p>
+            </div>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Tentu. UGM menerima mahasiswa dari berbagai daerah di Indonesia
+              dan mahasiswa internasional melalui jalur penerimaan yang sesuai.
+              Mahasiswa dari luar Yogyakarta juga dapat mencari tempat tinggal
+              seperti kos atau asrama sesuai ketersediaan dan ketentuan yang
+              berlaku.
+            </p>
+          </div>
+        </article>
 
-            <!-- FAQ 8 -->
-            <article class="faq-card">
-                <button class="faq-question" aria-expanded="false">
-                    <div class="question-block">
-                        <h4 class="faq-number">FAQ 8</h4>
-                        <p class="question-text">Apakah UGM memiliki organisasi dan kegiatan mahasiswa?</p>
-                    </div>
-                    <span class="toggle-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Ya, mahasiswa UGM dapat mengikuti berbagai organisasi, unit kegiatan mahasiswa, komunitas minat dan bakat, kegiatan olahraga, seni, penelitian, serta program pengabdian kepada masyarakat.</p>
-                </div>
-            </article>
+        <!-- FAQ 8 -->
+        <article class="faq-card">
+          <button class="faq-question" aria-expanded="false">
+            <div class="question-block">
+              <h4 class="faq-number">FAQ 8</h4>
+              <p class="question-text">
+                Apakah UGM memiliki organisasi dan kegiatan mahasiswa?
+              </p>
+            </div>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Ya, mahasiswa UGM dapat mengikuti berbagai organisasi, unit
+              kegiatan mahasiswa, komunitas minat dan bakat, kegiatan olahraga,
+              seni, penelitian, serta program pengabdian kepada masyarakat.
+            </p>
+          </div>
+        </article>
 
-            <!-- FAQ 9 -->
-            <article class="faq-card">
-                <button class="faq-question" aria-expanded="false">
-                    <div class="question-block">
-                        <h4 class="faq-number">FAQ 9</h4>
-                        <p class="question-text">Di mana mendapatkan informasi resmi tentang UGM?</p>
-                    </div>
-                    <span class="toggle-icon">+</span>
-                </button>
-                <div class="faq-answer">
-                    <p>Informasi resmi mengenai profil universitas, program studi, penerimaan mahasiswa baru, beasiswa, dan kegiatan akademik dapat diperoleh melalui situs web UGM di <a href="https://ugm.ac.id/" target="_blank" rel="noopener noreferrer">ugm.ac.id</a> dan situs penerimaan mahasiswa baru di <a href="https://admissions.ugm.ac.id/" target="_blank" rel="noopener noreferrer">admissions.ugm.ac.id</a>.</p>
-                </div>
-            </article>
-        </section>
+        <!-- FAQ 9 -->
+        <article class="faq-card">
+          <button class="faq-question" aria-expanded="false">
+            <div class="question-block">
+              <h4 class="faq-number">FAQ 9</h4>
+              <p class="question-text">
+                Di mana mendapatkan informasi resmi tentang UGM?
+              </p>
+            </div>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Informasi resmi mengenai profil universitas, program studi,
+              penerimaan mahasiswa baru, beasiswa, dan kegiatan akademik dapat
+              diperoleh melalui situs web UGM di
+              <a
+                href="https://ugm.ac.id/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >ugm.ac.id</a
+              >
+              dan situs penerimaan mahasiswa baru di
+              <a
+                href="https://admissions.ugm.ac.id/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >admissions.ugm.ac.id</a
+              >.
+            </p>
+          </div>
+        </article>
+
+        <!-- FAQ 10 -->
+        <article class="faq-card">
+          <button class="faq-question" aria-expanded="false">
+            <div class="question-block">
+              <h4 class="faq-number">FAQ 10</h4>
+              <p class="question-text">
+                Apakah UGM menyediakan asrama mahasiswa?
+              </p>
+            </div>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              UGM menyediakan fasilitas hunian mahasiswa, termasuk asrama dengan
+              ketentuan dan ketersediaan tertentu. Informasi mengenai
+              pendaftaran, biaya, dan persyaratan dapat diperiksa melalui kanal
+              resmi UGM.
+            </p>
+          </div>
+        </article>
+
+        <!-- FAQ 11 -->
+        <article class="faq-card">
+          <button class="faq-question" aria-expanded="false">
+            <div class="question-block">
+              <h4 class="faq-number">FAQ 11</h4>
+              <p class="question-text">Berapa biaya kuliah di UGM?</p>
+            </div>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Biaya kuliah di UGM bergantung pada program studi, jalur masuk,
+              dan ketentuan UKT yang berlaku. Calon mahasiswa sebaiknya
+              memeriksa informasi biaya resmi untuk tahun penerimaan
+              masing-masing.
+            </p>
+          </div>
+        </article>
+
+        <!-- FAQ 12 -->
+        <article class="faq-card">
+          <button class="faq-question" aria-expanded="false">
+            <div class="question-block">
+              <h4 class="faq-number">FAQ 12</h4>
+              <p class="question-text">
+                Apakah mahasiswa UGM bisa mengikuti program pertukaran pelajar?
+              </p>
+            </div>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Mahasiswa UGM dapat memperoleh kesempatan mengikuti program
+              pertukaran pelajar dan kegiatan akademik internasional sesuai
+              program yang tersedia serta persyaratan yang ditentukan.
+            </p>
+          </div>
+        </article>
+
+        <!-- FAQ 13 -->
+        <article class="faq-card">
+          <button class="faq-question" aria-expanded="false">
+            <div class="question-block">
+              <h4 class="faq-number">FAQ 13</h4>
+              <p class="question-text">Apakah UGM memiliki perpustakaan?</p>
+            </div>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Ya, UGM memiliki perpustakaan dan layanan sumber belajar yang
+              dapat mendukung kegiatan perkuliahan, penelitian, serta pencarian
+              referensi akademik.
+            </p>
+          </div>
+        </article>
+
+        <!-- FAQ 14 -->
+        <article class="faq-card">
+          <button class="faq-question" aria-expanded="false">
+            <div class="question-block">
+              <h4 class="faq-number">FAQ 14</h4>
+              <p class="question-text">
+                Bagaimana cara mengetahui jadwal penerimaan mahasiswa baru UGM?
+              </p>
+            </div>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Jadwal penerimaan mahasiswa baru dapat dilihat melalui situs resmi
+              <a
+                href="https://admissions.ugm.ac.id/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Admissions UGM </a
+              >. Periksa pengumuman terbaru untuk mengetahui jadwal dan tahapan
+              seleksi.
+            </p>
+          </div>
+        </article>
+
+        <!-- FAQ 15 -->
+        <article class="faq-card">
+          <button class="faq-question" aria-expanded="false">
+            <div class="question-block">
+              <h4 class="faq-number">FAQ 15</h4>
+              <p class="question-text">
+                Apakah mahasiswa UGM bisa mengikuti kegiatan di luar akademik?
+              </p>
+            </div>
+            <span class="toggle-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Ya, mahasiswa dapat mengikuti berbagai kegiatan nonakademik
+              seperti olahraga, seni, kepanitiaan, organisasi, kompetisi, dan
+              kegiatan sosial untuk mengembangkan keterampilan serta pengalaman.
+            </p>
+          </div>
+        </article>
+      </section>
     </main>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
