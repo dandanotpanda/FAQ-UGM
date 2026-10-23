@@ -12,7 +12,7 @@ body {
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #f5f7fb;
+    background-color: #d4dfed;
     color: #222;
     line-height: 1.6;
 }
@@ -128,7 +128,7 @@ body {
 }
 
 .faq-card.active {
-    border-color: #64748b;
+    border-color: #0c3670;
     background-color: #ffffff;
     box-shadow: 0 5px 16px rgba(15, 23, 42, 0.08);
 }
@@ -138,11 +138,11 @@ body {
 }
 
 .faq-card.active .faq-question {
-    background-color: #eff6ff;
+    background-color: #9bb4d6;
 }
 
 .faq-card.active .toggle-icon {
-    background-color: #000000;
+    background-color: #230e78;
     color: #ffffff;
 }
 
